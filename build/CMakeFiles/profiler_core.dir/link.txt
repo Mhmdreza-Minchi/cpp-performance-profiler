@@ -1,0 +1,2 @@
+/usr/bin/ar qc libprofiler_core.a CMakeFiles/profiler_core.dir/src/Profiler.cpp.o
+/usr/bin/ranlib libprofiler_core.a

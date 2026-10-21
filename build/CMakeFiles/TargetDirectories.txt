@@ -1,0 +1,6 @@
+/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles/profiler_core.dir
+/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles/cpp_profiler.dir
+/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles/test_profiler.dir
+/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles/test.dir
+/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles/edit_cache.dir
+/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles/rebuild_cache.dir
