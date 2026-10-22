@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/include
 
-CXX_FLAGS = -g -std=c++20
+CXX_FLAGS = -O3 -DNDEBUG -std=c++20
 

@@ -8,7 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/src/Benchmark.cpp" "CMakeFiles/profiler_core.dir/src/Benchmark.cpp.o" "gcc" "CMakeFiles/profiler_core.dir/src/Benchmark.cpp.o.d"
   "/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/src/Profiler.cpp" "CMakeFiles/profiler_core.dir/src/Profiler.cpp.o" "gcc" "CMakeFiles/profiler_core.dir/src/Profiler.cpp.o.d"
+  "/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/src/ScopedTimer.cpp" "CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.o" "gcc" "CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.o.d"
+  "/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/src/Timer.cpp" "CMakeFiles/profiler_core.dir/src/Timer.cpp.o" "gcc" "CMakeFiles/profiler_core.dir/src/Timer.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -13,6 +13,9 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_library(profiler_core
     src/Profiler.cpp
+    src/Timer.cpp
+    src/ScopedTimer.cpp
+    src/Benchmark.cpp
 )
 
 target_include_directories(profiler_core

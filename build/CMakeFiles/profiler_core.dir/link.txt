@@ -1,2 +1,2 @@
-/usr/bin/ar qc libprofiler_core.a CMakeFiles/profiler_core.dir/src/Profiler.cpp.o
+/usr/bin/ar qc libprofiler_core.a CMakeFiles/profiler_core.dir/src/Profiler.cpp.o CMakeFiles/profiler_core.dir/src/Timer.cpp.o CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.o CMakeFiles/profiler_core.dir/src/Benchmark.cpp.o
 /usr/bin/ranlib libprofiler_core.a

@@ -181,6 +181,30 @@ test_prep/all: cmake_check_build_system
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_prep/all
 .PHONY : test_prep/all
 
+src/Benchmark.o: src/Benchmark.cpp.o
+.PHONY : src/Benchmark.o
+
+# target to build an object file
+src/Benchmark.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profiler_core.dir/build.make CMakeFiles/profiler_core.dir/src/Benchmark.cpp.o
+.PHONY : src/Benchmark.cpp.o
+
+src/Benchmark.i: src/Benchmark.cpp.i
+.PHONY : src/Benchmark.i
+
+# target to preprocess a source file
+src/Benchmark.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profiler_core.dir/build.make CMakeFiles/profiler_core.dir/src/Benchmark.cpp.i
+.PHONY : src/Benchmark.cpp.i
+
+src/Benchmark.s: src/Benchmark.cpp.s
+.PHONY : src/Benchmark.s
+
+# target to generate assembly for a file
+src/Benchmark.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profiler_core.dir/build.make CMakeFiles/profiler_core.dir/src/Benchmark.cpp.s
+.PHONY : src/Benchmark.cpp.s
+
 src/Profiler.o: src/Profiler.cpp.o
 .PHONY : src/Profiler.o
 
@@ -204,6 +228,54 @@ src/Profiler.s: src/Profiler.cpp.s
 src/Profiler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/profiler_core.dir/build.make CMakeFiles/profiler_core.dir/src/Profiler.cpp.s
 .PHONY : src/Profiler.cpp.s
+
+src/ScopedTimer.o: src/ScopedTimer.cpp.o
+.PHONY : src/ScopedTimer.o
+
+# target to build an object file
+src/ScopedTimer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profiler_core.dir/build.make CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.o
+.PHONY : src/ScopedTimer.cpp.o
+
+src/ScopedTimer.i: src/ScopedTimer.cpp.i
+.PHONY : src/ScopedTimer.i
+
+# target to preprocess a source file
+src/ScopedTimer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profiler_core.dir/build.make CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.i
+.PHONY : src/ScopedTimer.cpp.i
+
+src/ScopedTimer.s: src/ScopedTimer.cpp.s
+.PHONY : src/ScopedTimer.s
+
+# target to generate assembly for a file
+src/ScopedTimer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profiler_core.dir/build.make CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.s
+.PHONY : src/ScopedTimer.cpp.s
+
+src/Timer.o: src/Timer.cpp.o
+.PHONY : src/Timer.o
+
+# target to build an object file
+src/Timer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profiler_core.dir/build.make CMakeFiles/profiler_core.dir/src/Timer.cpp.o
+.PHONY : src/Timer.cpp.o
+
+src/Timer.i: src/Timer.cpp.i
+.PHONY : src/Timer.i
+
+# target to preprocess a source file
+src/Timer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profiler_core.dir/build.make CMakeFiles/profiler_core.dir/src/Timer.cpp.i
+.PHONY : src/Timer.cpp.i
+
+src/Timer.s: src/Timer.cpp.s
+.PHONY : src/Timer.s
+
+# target to generate assembly for a file
+src/Timer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/profiler_core.dir/build.make CMakeFiles/profiler_core.dir/src/Timer.cpp.s
+.PHONY : src/Timer.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -265,9 +337,18 @@ help:
 	@echo "... cpp_profiler"
 	@echo "... profiler_core"
 	@echo "... test_profiler"
+	@echo "... src/Benchmark.o"
+	@echo "... src/Benchmark.i"
+	@echo "... src/Benchmark.s"
 	@echo "... src/Profiler.o"
 	@echo "... src/Profiler.i"
 	@echo "... src/Profiler.s"
+	@echo "... src/ScopedTimer.o"
+	@echo "... src/ScopedTimer.i"
+	@echo "... src/ScopedTimer.s"
+	@echo "... src/Timer.o"
+	@echo "... src/Timer.i"
+	@echo "... src/Timer.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

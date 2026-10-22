@@ -89,17 +89,65 @@ CMakeFiles/profiler_core.dir/src/Profiler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/profiler_core.dir/src/Profiler.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/src/Profiler.cpp -o CMakeFiles/profiler_core.dir/src/Profiler.cpp.s
 
+CMakeFiles/profiler_core.dir/src/Timer.cpp.o: CMakeFiles/profiler_core.dir/flags.make
+CMakeFiles/profiler_core.dir/src/Timer.cpp.o: /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/src/Timer.cpp
+CMakeFiles/profiler_core.dir/src/Timer.cpp.o: CMakeFiles/profiler_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/profiler_core.dir/src/Timer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/profiler_core.dir/src/Timer.cpp.o -MF CMakeFiles/profiler_core.dir/src/Timer.cpp.o.d -o CMakeFiles/profiler_core.dir/src/Timer.cpp.o -c /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/src/Timer.cpp
+
+CMakeFiles/profiler_core.dir/src/Timer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/profiler_core.dir/src/Timer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/src/Timer.cpp > CMakeFiles/profiler_core.dir/src/Timer.cpp.i
+
+CMakeFiles/profiler_core.dir/src/Timer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/profiler_core.dir/src/Timer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/src/Timer.cpp -o CMakeFiles/profiler_core.dir/src/Timer.cpp.s
+
+CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.o: CMakeFiles/profiler_core.dir/flags.make
+CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.o: /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/src/ScopedTimer.cpp
+CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.o: CMakeFiles/profiler_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.o -MF CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.o.d -o CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.o -c /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/src/ScopedTimer.cpp
+
+CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/src/ScopedTimer.cpp > CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.i
+
+CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/src/ScopedTimer.cpp -o CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.s
+
+CMakeFiles/profiler_core.dir/src/Benchmark.cpp.o: CMakeFiles/profiler_core.dir/flags.make
+CMakeFiles/profiler_core.dir/src/Benchmark.cpp.o: /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/src/Benchmark.cpp
+CMakeFiles/profiler_core.dir/src/Benchmark.cpp.o: CMakeFiles/profiler_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/profiler_core.dir/src/Benchmark.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/profiler_core.dir/src/Benchmark.cpp.o -MF CMakeFiles/profiler_core.dir/src/Benchmark.cpp.o.d -o CMakeFiles/profiler_core.dir/src/Benchmark.cpp.o -c /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/src/Benchmark.cpp
+
+CMakeFiles/profiler_core.dir/src/Benchmark.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/profiler_core.dir/src/Benchmark.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/src/Benchmark.cpp > CMakeFiles/profiler_core.dir/src/Benchmark.cpp.i
+
+CMakeFiles/profiler_core.dir/src/Benchmark.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/profiler_core.dir/src/Benchmark.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/src/Benchmark.cpp -o CMakeFiles/profiler_core.dir/src/Benchmark.cpp.s
+
 # Object files for target profiler_core
 profiler_core_OBJECTS = \
-"CMakeFiles/profiler_core.dir/src/Profiler.cpp.o"
+"CMakeFiles/profiler_core.dir/src/Profiler.cpp.o" \
+"CMakeFiles/profiler_core.dir/src/Timer.cpp.o" \
+"CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.o" \
+"CMakeFiles/profiler_core.dir/src/Benchmark.cpp.o"
 
 # External object files for target profiler_core
 profiler_core_EXTERNAL_OBJECTS =
 
 libprofiler_core.a: CMakeFiles/profiler_core.dir/src/Profiler.cpp.o
+libprofiler_core.a: CMakeFiles/profiler_core.dir/src/Timer.cpp.o
+libprofiler_core.a: CMakeFiles/profiler_core.dir/src/ScopedTimer.cpp.o
+libprofiler_core.a: CMakeFiles/profiler_core.dir/src/Benchmark.cpp.o
 libprofiler_core.a: CMakeFiles/profiler_core.dir/build.make
 libprofiler_core.a: CMakeFiles/profiler_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libprofiler_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libprofiler_core.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/profiler_core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/profiler_core.dir/link.txt --verbose=$(VERBOSE)
 

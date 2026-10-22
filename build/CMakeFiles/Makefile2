@@ -94,12 +94,12 @@ clean: CMakeFiles/test_profiler.dir/clean
 CMakeFiles/profiler_core.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/profiler_core.dir/build.make CMakeFiles/profiler_core.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/profiler_core.dir/build.make CMakeFiles/profiler_core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles --progress-num=3,4 "Built target profiler_core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles --progress-num=3,4,5,6,7 "Built target profiler_core"
 .PHONY : CMakeFiles/profiler_core.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/profiler_core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/profiler_core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles 0
 .PHONY : CMakeFiles/profiler_core.dir/rule
@@ -111,7 +111,7 @@ profiler_core: CMakeFiles/profiler_core.dir/rule
 # codegen rule for target.
 CMakeFiles/profiler_core.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/profiler_core.dir/build.make CMakeFiles/profiler_core.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles --progress-num=3,4 "Finished codegen for target profiler_core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles --progress-num=3,4,5,6,7 "Finished codegen for target profiler_core"
 .PHONY : CMakeFiles/profiler_core.dir/codegen
 
 # clean rule for target.
@@ -131,7 +131,7 @@ CMakeFiles/cpp_profiler.dir/all: CMakeFiles/profiler_core.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cpp_profiler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cpp_profiler.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles 0
 .PHONY : CMakeFiles/cpp_profiler.dir/rule
@@ -158,12 +158,12 @@ CMakeFiles/cpp_profiler.dir/clean:
 CMakeFiles/test_profiler.dir/all: CMakeFiles/profiler_core.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_profiler.dir/build.make CMakeFiles/test_profiler.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_profiler.dir/build.make CMakeFiles/test_profiler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles --progress-num=5,6 "Built target test_profiler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles --progress-num=8,9 "Built target test_profiler"
 .PHONY : CMakeFiles/test_profiler.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_profiler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_profiler.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_profiler.dir/rule
@@ -175,7 +175,7 @@ test_profiler: CMakeFiles/test_profiler.dir/rule
 # codegen rule for target.
 CMakeFiles/test_profiler.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_profiler.dir/build.make CMakeFiles/test_profiler.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles --progress-num=5,6 "Finished codegen for target test_profiler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mohammadreza_minachi/Desktop/cpp-performance-profiler/build/CMakeFiles --progress-num=8,9 "Finished codegen for target test_profiler"
 .PHONY : CMakeFiles/test_profiler.dir/codegen
 
 # clean rule for target.
