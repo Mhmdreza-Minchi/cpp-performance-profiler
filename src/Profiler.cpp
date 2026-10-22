@@ -1,7 +1,8 @@
 
 #include "profiler/Profiler.hpp"
-
 #include <iostream>
+
+using namespace std;
 
 namespace profiler {
 
@@ -10,15 +11,15 @@ Profiler::Profiler()
 }
 
 void Profiler::displayWelcomeMessage() const {
-    std::cout << "================================\n";
-    std::cout << " C++ Performance Profiler\n";
-    std::cout << " & Memory Analyser\n";
-    std::cout << "================================\n";
-    std::cout << "Version: " << version_ << "\n";
-    std::cout << "Status: Initialised\n";
+    cout << "================================\n";
+    cout << " C++ Performance Profiler\n";
+    cout << " & Memory Analyser\n";
+    cout << "================================\n";
+    cout << "Version: " << version_ << "\n";
+    cout << "Status: Initialised\n";
 }
 
-std::string Profiler::getVersion() const {
+string Profiler::getVersion() const {
     return version_;
 }
 

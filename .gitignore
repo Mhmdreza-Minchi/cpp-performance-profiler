@@ -1,0 +1,23 @@
+
+# CMake
+build/
+cmake-build-*/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Compiled files
+*.o
+*.a
+*.dylib
+*.out
+
+# Debug files
+*.dSYM/
+
+# Temporary files
+*.log
+*.tmp

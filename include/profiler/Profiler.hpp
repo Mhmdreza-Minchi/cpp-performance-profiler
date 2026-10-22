@@ -1,7 +1,7 @@
-
 #pragma once
-
 #include <string>
+
+using namespace std;
 
 namespace profiler {
 
@@ -10,10 +10,10 @@ public:
     Profiler();
 
     void displayWelcomeMessage() const;
-    std::string getVersion() const;
+    string getVersion() const;
 
 private:
-    std::string version_;
+    string version_;
 };
 
 } // namespace profiler
